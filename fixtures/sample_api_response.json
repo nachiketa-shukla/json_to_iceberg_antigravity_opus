@@ -1,0 +1,131 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name": "Alice Johnson",
+      "email": "alice@example.com",
+      "is_active": true,
+      "created_at": "2024-01-15T10:30:00Z",
+      "profile": {
+        "age": 32,
+        "bio": "Software engineer",
+        "address": {
+          "street": "123 Main St",
+          "city": "San Francisco",
+          "state": "CA",
+          "zip": "94102",
+          "geo": {
+            "lat": 37.7749,
+            "lng": -122.4194
+          }
+        },
+        "social": {
+          "twitter": "@alice_dev",
+          "github": "alicej"
+        }
+      },
+      "tags": ["admin", "developer"],
+      "scores": [95, 87, 92],
+      "projects": [
+        {
+          "project_id": 101,
+          "title": "Data Pipeline",
+          "status": "active",
+          "metadata": {
+            "priority": "high",
+            "budget": 50000.0
+          }
+        },
+        {
+          "project_id": 102,
+          "title": "ML Platform",
+          "status": "planning",
+          "metadata": {
+            "priority": "medium",
+            "budget": 30000.0
+          }
+        }
+      ],
+      "settings": null
+    },
+    {
+      "id": 2,
+      "name": "Bob Smith",
+      "email": "bob@example.com",
+      "is_active": false,
+      "created_at": "2024-02-20T14:00:00Z",
+      "profile": {
+        "age": 28,
+        "bio": null,
+        "address": {
+          "street": "456 Oak Ave",
+          "city": "Portland",
+          "state": "OR",
+          "zip": "97201",
+          "geo": {
+            "lat": 45.5152,
+            "lng": -122.6784
+          }
+        },
+        "social": {
+          "twitter": null,
+          "github": "bobsmith"
+        }
+      },
+      "tags": ["viewer"],
+      "scores": [78, 85],
+      "projects": [
+        {
+          "project_id": 201,
+          "title": "Dashboard",
+          "status": "completed",
+          "metadata": {
+            "priority": "low",
+            "budget": 15000.0
+          }
+        }
+      ],
+      "settings": {
+        "theme": "dark",
+        "notifications": true
+      }
+    },
+    {
+      "id": 3,
+      "name": "Carol Lee",
+      "email": "carol@example.com",
+      "is_active": true,
+      "created_at": "2024-03-10T09:15:00Z",
+      "profile": {
+        "age": 45,
+        "bio": "Team lead",
+        "address": {
+          "street": "789 Pine Rd",
+          "city": "Austin",
+          "state": "TX",
+          "zip": "73301",
+          "geo": {
+            "lat": 30.2672,
+            "lng": -97.7431
+          }
+        },
+        "social": {
+          "twitter": "@carol_lead",
+          "github": null
+        }
+      },
+      "tags": ["admin", "manager"],
+      "scores": [99, 94, 97, 100],
+      "projects": [],
+      "settings": {
+        "theme": "light",
+        "notifications": false
+      }
+    }
+  ],
+  "meta": {
+    "page": 1,
+    "total_pages": 5,
+    "total_records": 150
+  }
+}
